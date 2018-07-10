@@ -13,3 +13,53 @@
  *= require_tree .
  *= require_self
  */
+/* index.css
+*/h1 {
+    color: pink;
+    font-family: helvetica;
+    text-align: center;
+    border: dotted 3px black;
+    border-radius: 15px;
+    margin-right: 125px;
+    margin-left: 125px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+Body{
+    background-color: grey;
+    
+}
+
+ul{
+    color: White;
+    list-style: none;
+    font-family: helvetica;
+
+}
+#todo_list_section{
+    padding: 15px;
+    border: solid 2px black; 
+    margin :50px;
+}
+#add_to_do_button{
+margin-left: 250px}
+
+#name_of_todo{
+    margin-left: 213px
+}
+
+#number_of_pomodoros{
+    margin-left: 213px
+}
+
+#pomodoros{
+    float: right;
+}
+
+.pomodoros{
+    float: right;
+}
+
+.completedtasks{
+    text-decoration: line-through;
+}
