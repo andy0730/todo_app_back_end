@@ -24,7 +24,6 @@
     margin-right: 125px;
     margin-left: 125px;
     padding-bottom: 10px;
-    padding-top: 10px;
 }
 Body{
     background-color: grey;
@@ -74,7 +73,7 @@ margin-left: 250px}
 
 body{
     background-color: grey;
-    text-align: center;
+    text-align: left;
      padding: 15px;
     border: solid 2px black; 
     margin :50px;
@@ -83,7 +82,3 @@ body{
     margin: 20px;
 }
 
-li{
-    text-decoration: line-through;
-    
-}
