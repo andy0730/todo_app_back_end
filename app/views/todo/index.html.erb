@@ -4,15 +4,17 @@
             <ul> 
                 <li>
                    <input type="checkbox"/> 
-                   <a href="/todo/index_header"><%= t.description %></a>
-                   <span id="pomodoros"><%= t.pomodoro_estimate ></span>
-                </Li>   
+                   <a href='/todo/index_header'><%=t.description%>
+                   </a>
+                   <span id="pomodoros_estimate"><%=t.pomodoro_estimate%>
+                   </span>
+                </li>   
                 
             </ul>
         </div>
-        
+
         <div>
-            <a href=show/2>    
+            <a href='show/2'>    
                 <input id="add_to_do_button" type= "submit" value ="add todo"/>
             </a>
         </div>
