@@ -24,6 +24,8 @@
     margin-right: 125px;
     margin-left: 125px;
     padding-bottom: 10px;
+    padding-top: 10px;
+
 }
 Body{
     background-color: grey;
@@ -34,7 +36,7 @@ ul{
     color: White;
     list-style: none;
     font-family: helvetica;
-
+    text-align: left;
 }
 #todo_list_section{
     padding: 15px;
@@ -42,14 +44,8 @@ ul{
     margin :50px;
 }
 #add_to_do_button{
-margin-left: 250px}
-
-#name_of_todo{
-    margin-left: 213px
-}
-
-#number_of_pomodoros{
-    margin-left: 213px
+text-align: center
+    
 }
 
 #pomodoros{
@@ -73,12 +69,14 @@ margin-left: 250px}
 
 body{
     background-color: grey;
-    text-align: left;
-     padding: 15px;
+    text-align: center;
+    padding: 15px;
     border: solid 2px black; 
-    margin :50px;
 }
 #edit_go_back{
     margin: 20px;
 }
 
+#show_buttons{
+    text-align: center;
+}

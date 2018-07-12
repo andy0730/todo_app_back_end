@@ -1,50 +1,19 @@
-<%=3+4%>
-
-
   <h1 id="index_header"> Andrew's Todo list </h1>
         <div id="todo_list_section"> 
             
             <ul> 
                 <li>
                    <input type="checkbox"/> 
-                   <a href="show/1">practice violin</a>
-                   <span id="pomodoros">2 </span>
-                </li>
-                <li>
-                    <input type="checkbox"/> 
-                    <a href="show/2">finish homework</a>
-                    <span id="pomodoros">2 </span>
-                </li>
-                <li>
-                   <input type="checkbox"/> 
-                   <a href="show/3">read</a>
-                   <span id="pomodoros">2 </span>
-                </li>
-                <li>
-                   <input type="checkbox"/> 
-                   <a href="show/4">go to korea</a>
-                   <span id="pomodoros">2 </span>
-                </li>
-                <Li>
-                   <input type="checkbox"/> 
-                   <a href="show/5">buy sister her b-day present</a>
-                   <span id="pomodoros">2 </span>
+                   <a href="/todo/edit"><%= t.description %></a>
+                   <span id="pomodoros"><%= t.pomodoro_estimate ></span>
                 </Li>   
                 
             </ul>
         </div>
         
         <div>
-            <!--<a href=show.html>-->       
+            <a href=show/2>    
                 <input id="add_to_do_button" type= "submit" value ="add todo"/>
-           <!-- </a>-->
-        </div>
-        
-        <div>
-            <input id="name_of_todo" type= "text" placeholder ="name of todo..."/>
-        </div>
-            
-        <div>
-            <input id="number_of_pomodoros" type= "number" placeholder ="number of pomodoros"/>
+            </a>
         </div>
         
